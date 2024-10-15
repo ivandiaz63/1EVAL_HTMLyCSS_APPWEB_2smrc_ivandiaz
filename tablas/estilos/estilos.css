@@ -1,0 +1,9 @@
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;   
+    font-size: 33px;
+    text-align: center;
+}
+p {
+    color: red;
+}
