@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <h1>Formulario</h1>
+ <form action="alert(Pepe)">
+ <label for="">Nombre<input type="text" minlength="3" maxlength="100" required></label><br>
+ <label for="">Apellidos<input type="text"></label><br>
+ <label for="">Edad<input type="number" min="16" max="100"></label><br>
+ <label for="">Telefono</label><input type="tel" required><br>
+ <label for="">URL<input type="url"></label><br>
+ <label for="">Email<input type="email"></label><br>
+ <label for="">Contraseña<input type="password" required></label><br>
+ <label for="">Marcar si tiene coche propio<input type="checkbox" name="coche" id="coche"></label><br>
+ <label for="">Color Favorito<input type="color" name="color" id="color" value="#BF4040"></label><br>
+ <label for="">Genero?
+ <input type="radio" name="boton" id="genero1">Hombre
+ <input type="radio" name="boton" id="genero2">Mujer
+ <input type="radio" name="boton" id="genero3">Otros
+ </label><br>
+ <p><h4>Otra informacion</p></h4>
+ <label for=""><textarea name="masinfo" id="masinfo" rows="5" cols="50">Complete aqui</textarea></label><br>
+ <label for="">Apellidos?<select name="menu" id="menu">
+ <option value="1">Uno</option>
+ <option value="2" selected>Dos</option>
+ <option value="3">Tres</option>
+ <option value="4">Mas</option>
+ </select></label><br>
+ <label for="">GP Favorito F1
+ <select name="menuoptgroup" id="siu">
+ <optgroup label="GPS europa">
+ <option value="1">España</option>
+ <option value="2">Inglaterra</option>
+ <option value="3">Italia</option>
+ <option value="4">Mónaco</option>
+ <option value="5">Bélgica</option>
+ <option value="6">Holanda</option>
+ </optgroup>
+ <optgroup label="GPS america">
+ <option value="1">USA</option>
+ <option value="2">Austin</option>
+ <option value="3">Las Vegas</option>
+ <option value="4">Miami</option>
+ <option value="5">Brazil</option>
+ <option value="6">México</option>
+ </optgroup>
+ </select>
+ </label><br>
+ <p>Valoracion del formulario</p>
+ <label for="">
+ <input type="range" name="valoracion" id="valoracion" min="1" max="10" list="valoracion">
+ <datalist id="valoracion">
+ <option value="1"></option>
+ <option value="2"></option>
+ <option value="3"></option>
+ <option value="4"></option>
+ <option value="5"></option>
+ <option value="6"></option>
+ <option value="7"></option>
+ <option value="8"></option>
+ <option value="9"></option>
+ <option value="10"></option>
+ </datalist>
+ </label>
+ <input type="submit">
+ <input type="reset" value="resetear">
+ 
+ </form>
+</body>
+</html>
