@@ -1,0 +1,28 @@
+/*Selector Universal*/
+*{
+    background-color:cornflowerblue;
+    font-family:monospace;
+    text-align: center;
+}
+/*Selector de etiqueta*/
+h1{
+    text-align: center;
+    color: green;
+    background-color: wheat;
+    font-size: 33px;   
+}
+p{
+    color: beige;
+    font-size: 17px;
+    border-color: aqua;
+    border-width: 10px;
+    border-style:groove ;
+
+}
+/*Selector de clase*/
+p.fondonuevo {
+    color: orange;
+    border-color: blue;
+    border-width: 3px;
+    border-style: dashed;
+}
