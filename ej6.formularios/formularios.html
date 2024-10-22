@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="estilosform.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+ <form action="alert(Pepe)">
+    <label for="nom">Nombre<input type="text" minlength="3" maxlength="100" required id="nom"></label><br>
+    <label for="ape">Apellidos<input type="text" id="ape"></label><br>
+    <label for="age">Edad<input type="number" min="16" max="100" id="age"></label><br>
+    <label for="phone">Telefono</label><input type="tel" required id="phone"><br>
+    <label for="url">URL<input type="url" id="url"></label><br>
+    <label for="mail">Email<input type="email"></label><br>
+    <label for="cont">Contraseña<input type="password" required></label><br>
+    <label for="car">Marcar si tiene coche propio<input type="checkbox" name="coche" id="coche"></label><br>
+    <label for="color">Color Favorito<input type="color" name="color" id="color" value="#BF4040"></label><br>
+    <label for="gen">Genero?
+    <input type="radio" name="boton" id="genero1">Hombre
+    <input type="radio" name="boton" id="genero2">Mujer
+    <input type="radio" name="boton" id="genero3">Otros
+    <label for="tab">
+        <input type="text" name="texto1" placeholder="texto1" tabindex="5">
+        <input type="text" name="texto2" placeholder="texto2" tabindex="8">
+        <input type="text" name="texto3" placeholder="texto3" tabindex="7">
+        <input type="text" name="texto4" placeholder="texto4" tabindex="6">
+    </label>
+ 
+    </label><br>
+    <p><h4>Otra informacion</p></h4>
+    <label for=""><textarea name="masinfo" id="masinfo" rows="5" cols="50">Complete aqui</textarea></label><br>
+    <label for="">Apellidos?<select name="menu" id="menu">
+        <option value="1">Uno</option>
+        <option value="2" selected>Dos</option>
+        <option value="3">Tres</option>
+        <option value="4">Mas</option>
+    </select></label><br>
+    <label for="">GP Favorito F1
+    <select name="menuoptgroup" id="siu">
+    <optgroup label="GPS europa">
+        <option value="1">España</option>
+        <option value="2">Inglaterra</option>
+        <option value="3">Italia</option>
+        <option value="4">Mónaco</option>
+        <option value="5">Bélgica</option>
+        <option value="6">Holanda</option>
+    </optgroup>
+    <optgroup label="GPS america">
+        <option value="1">USA</option>
+        <option value="2">Austin</option>
+        <option value="3">Las Vegas</option>
+        <option value="4">Miami</option>
+        <option value="5">Brazil</option>
+    <option value="6">México</option>
+    </optgroup>
+    </select>
+    </label><br>
+    <p>Valoracion del formulario</p>
+    <label for="">
+     <input type="range" name="valoracion" id="valoracion" min="1" max="10" list="valoracion">
+    <datalist id="valoracion">
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+    <option value="6"></option>
+    <option value="7"></option>
+    <option value="8"></option>
+    <option value="9"></option>
+    <option value="10"></option>
+    </datalist>
+    </label>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="resetear">
+    <form action=""></form>
+</form>
+</body>
