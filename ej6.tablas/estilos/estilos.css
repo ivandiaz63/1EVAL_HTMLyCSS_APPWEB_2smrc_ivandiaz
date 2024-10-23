@@ -15,3 +15,31 @@ h1#textounico{
     color: aquamarine;
     background-color: black;
 }
+.dias{
+    background-color: red;
+    color: white;
+}
+.horas{
+    background-color: white;
+}
+.SR{
+    background-color:aqua;
+}
+.SOR{
+    background-color: violet;
+}
+.AW{
+    background-color:rgb(233, 123, 21);
+}
+.Ingles{
+    background-color: yellow;
+}
+.SI{
+    background-color: green
+}
+.empresa{
+    background-color: red;
+}
+.recreo{
+    background-color: white;
+}

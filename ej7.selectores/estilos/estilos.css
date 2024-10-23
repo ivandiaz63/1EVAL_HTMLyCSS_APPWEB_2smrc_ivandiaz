@@ -18,8 +18,9 @@ p{
     border-color: aqua;
     border-width: 10px;
     border-style:groove;
+    border-radius: 33px;
     text-align: center;
-}}
+}
 /*Selector de clase*/
 p.fondonuevo{
     color: orange;
@@ -30,8 +31,10 @@ p.fondonuevo{
 }
 /*Divisores*/
 footer{
-    margin: ;
+    margin: 33px;
     padding: ;
     border-color: black;
     border-style: dotted;
-    border-width: 22px;
+    border-width: 10px;
+    border-radius: 33px;
+}
