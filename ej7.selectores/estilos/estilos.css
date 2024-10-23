@@ -2,7 +2,6 @@
 *{
     background-color:cornflowerblue;
     font-family:monospace;
-    text-align: center;
 }
 /*Selector de etiqueta*/
 h1{
@@ -10,19 +9,29 @@ h1{
     color: green;
     background-color: wheat;
     font-size: 33px;   
+    text-align: center;
+
 }
 p{
     color: beige;
     font-size: 17px;
     border-color: aqua;
     border-width: 10px;
-    border-style:groove ;
-
-}
+    border-style:groove;
+    text-align: center;
+}}
 /*Selector de clase*/
-p.fondonuevo {
+p.fondonuevo{
     color: orange;
     border-color: blue;
     border-width: 3px;
     border-style: dashed;
+    text-align: center;
 }
+/*Divisores*/
+footer{
+    margin: ;
+    padding: ;
+    border-color: black;
+    border-style: dotted;
+    border-width: 22px;
