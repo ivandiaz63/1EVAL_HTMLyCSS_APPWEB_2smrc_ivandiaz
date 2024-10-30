@@ -1,0 +1,18 @@
+ol{
+    color: blue;
+}
+
+ul.menu{
+    list-style: none;
+}
+
+li.submenu{
+    float: left;
+    background-color: blue;
+    color: white;
+    width: 10em;
+    text-align: center;
+    margin-right: 6px;
+    padding: 10px;
+    border: 3px black dotted;
+}
